@@ -26,6 +26,7 @@ class HomeComponent extends Component {
                                 <img className="image" src={imageInfo[1].thumbnailUrl} alt={imageInfo[1].title} 
                                     onClick={() => history.push('/' + imageInfo[0])}
                                 />
+                                sdfasdf
                                 {imageInfo[1].title}
                             </div>
                         )
